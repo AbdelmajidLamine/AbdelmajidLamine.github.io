@@ -1,0 +1,131 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito', sans-serif;}
+.nav_containair{
+    width:100%;
+    background-color: rgb(19, 15, 15);
+}
+.navbar{
+    display:grid;
+    grid-template-columns:0.2fr auto 1fr;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+#navbar_logo{
+    color: whitesmoke;
+    
+    margin-left:20px;
+    cursor: pointer;
+}
+.nav_menu{
+    display:grid;
+   grid-template-columns: repeat(5 ,auto);
+   list-style: none;
+   text-align: center;
+   justify-self: end;
+ }
+ .nav-links{
+     text-decoration: none;
+     color:whitesmoke ;
+     margin: 0 9px; 
+     font-size: 1rem;
+ }
+ .nav-links:hover{
+     transition: all 0.3s ease-out;
+     color: whitesmoke;
+ }
+ .nav_btn{
+     border-radius: 4px;
+      padding:6px 16px;
+  background-color: tomato;
+ }
+ .nav_btn:hover{
+     background-color:rgb(19, 15, 15); 
+     transition: all 0.3s ease-out;
+     border:solid 1px tomato;
+     padding: 5px 15px;
+ }
+ .menu_togle .bar{
+     width: 25px;
+     height: 3px;
+     margin:5px auto;
+     background: white;
+
+ } 
+ @media screen and (max-width:760px){
+ .nav_containair{
+         position: relative;
+        
+     }
+     .nav_menu{
+         display: grid;
+         grid-template-columns: auto;
+         background-color: tomato;
+         margin: 0;
+         width:100%;
+         position: absolute;
+         top:80px;
+         left:-100%;
+         opacity: 0;
+         transition: all 0.3s ease;
+     }
+     #navbar_logo{
+         margin-left: 20px;
+         margin-right: 100px;
+     }
+     .nav_menu.active{
+         background: rgb(19, 15, 15);
+         left: 0;
+         opacity:1;
+         transition: all 0.5s ease;
+     }
+     .nav-links{
+         text-align: center;
+         line-height: 60px;
+         width: 100%;
+         display: table;
+     }
+     .nav-link{
+    background: tomato;
+    color: whitesmoke;
+    transition: all 0.5s ease;
+
+     }
+     .navbar{
+         width: 100%;
+     }
+    
+     .nav_btn:hover{
+         width: 100%;
+         margin:0 auto;
+         border:none;
+         border-radius: 0;
+
+     }
+     #mobil_menu{
+         position: absolute;
+         top: 20%;
+         right: 5%;
+         transform:translate(5%,20%) ;
+
+     }
+     .menu_togle .bar{
+         display: block;
+         cursor: pointer;
+
+     }
+     .menu_togle:hover{
+         cursor: pointer;
+     }
+     #mobil_menu.is-active .bar:nth-child(2){
+         opacity: 0;
+     }
+
+     
+ }
+ 
