@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#back {
+    background-image: url('ppp.jpg');
+    background-size: 4000px;
+}
+
+.profil {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.profil img {
+    border-radius: 70% 70% 70% 70%;
+    /*box-shadow: 3px 4px 5px 4px rgb(0 0 0 / 50%);*/
+}
+
+h1 {
+    color: black;
+    text-decoration: blink;
+    font-family: Times New Roman;
+}
+
+.HeaD {
+    display: flex;
+}
+
+.Style {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+.wrap {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Syne Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.Contacte {
+    display: flex;
+    padding-left: 300px;
+    padding-top: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Syne Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    padding-bottom: 100px;
+}
+
+.Photo {
+    padding-top: 10px;
+    padding-right: 10px;
+    float: left;
+}
+
+.Photo img {
+    padding-top: 12px;
+    float: left;
+}
+
+.tabulation {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+h2 {
+    color: #6495ED;
+    font-size: 30px;
+}
+
+.nParag {
+    padding-top: 10px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Syne Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.CERTIFICAT {
+    padding-top: 20px;
+    padding-left: 230px;
+}
+
+.lANGUE {
+    padding-top: 20px;
+    padding-left: 200px;
+}
