@@ -1,0 +1,263 @@
+                                        * {
+                                            margin: 30;
+                                            padding: 0;
+                                            box-shadow: none;
+                                        }
+                                        
+                                        #back {
+                                            display: block;
+                                        }
+                                        
+                                        #positionnement1 {
+                                            display: flex;
+                                            padding-top: 100px;
+                                        }
+                                        
+                                        .f1carre1 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(238, 58, 133, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: relative;
+                                        }
+                                        
+                                        .f1carre2 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(205, 238, 58, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: relative;
+                                            top: 5px;
+                                        }
+                                        
+                                        .f1carre3 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(70, 40, 240, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: relative;
+                                            top: 9px;
+                                        }
+                                        
+                                        #figure2 {
+                                            padding-left: 100px;
+                                        }
+                                        
+                                        .f2carre1 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(238, 58, 133, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: relative;
+                                        }
+                                        
+                                        .f2carre2 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(205, 238, 58, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            left: 65px;
+                                            position: relative;
+                                        }
+                                        
+                                        .f2carre3 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(70, 40, 240, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: relative;
+                                            left: 130px;
+                                        }
+                                        
+                                        #figure3 {
+                                            padding-left: 200px;
+                                        }
+                                        
+                                        .f3carre1 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(238, 58, 133, 0.836);
+                                            height: 60px;
+                                            width: 130px;
+                                            position: relative;
+                                        }
+                                        
+                                        .f3carre2 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(205, 238, 58, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: relative;
+                                            top: 5px;
+                                        }
+                                        
+                                        .f3carre3 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(70, 40, 240, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: relative;
+                                            left: 70px;
+                                            top: -61px;
+                                        }
+                                        
+                                        #figure4 {
+                                            padding-left: 200px;
+                                        }
+                                        
+                                        .f4carre1 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(238, 58, 133, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: relative;
+                                        }
+                                        
+                                        .f4carre2 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(205, 238, 58, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: relative;
+                                            top: 5px;
+                                        }
+                                        
+                                        .f4carre3 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(70, 40, 240, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: relative;
+                                            left: 70px;
+                                            top: -132px;
+                                        }
+                                        
+                                        #positionnement2 {
+                                            display: flex;
+                                            padding-top: 100px;
+                                        }
+                                        
+                                        .f1Bcarre1 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(238, 58, 133, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: absolute;
+                                            top: 500px;
+                                        }
+                                        
+                                        .f1Bcarre2 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(205, 238, 58, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: absolute;
+                                            top: 570px;
+                                        }
+                                        
+                                        .f1Bcarre3 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(70, 40, 240, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: absolute;
+                                            top: 640px;
+                                        }
+                                        
+                                        #figure2B {
+                                            padding-left: 100px;
+                                        }
+                                        
+                                        .f2Bcarre1 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(238, 58, 133, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: absolute;
+                                            top: 500px;
+                                        }
+                                        
+                                        .f2Bcarre2 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(205, 238, 58, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: absolute;
+                                            top: 565px;
+                                            left: 173px;
+                                        }
+                                        
+                                        .f2Bcarre3 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(70, 40, 240, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: absolute;
+                                            top: 630px;
+                                            left: 235px;
+                                        }
+                                        
+                                        #figure3B {
+                                            padding-left: 250px;
+                                        }
+                                        
+                                        .f3Bcarre1 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(238, 58, 133, 0.836);
+                                            height: 60px;
+                                            width: 130px;
+                                            position: absolute;
+                                            top: 500px;
+                                        }
+                                        
+                                        .f3Bcarre2 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(205, 238, 58, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: absolute;
+                                            top: 570px;
+                                            left: 357px;
+                                        }
+                                        
+                                        .f3Bcarre3 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(70, 40, 240, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: absolute;
+                                            top: 570px;
+                                            left: 427px;
+                                        }
+                                        
+                                        #figure4B {
+                                            padding-left: 200px;
+                                        }
+                                        
+                                        .f4Bcarre1 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(238, 58, 133, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: absolute;
+                                            top: 500px;
+                                        }
+                                        
+                                        .f4Bcarre2 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(205, 238, 58, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: absolute;
+                                            top: 570px;
+                                            left: 557px;
+                                        }
+                                        
+                                        .f4Bcarre3 {
+                                            border: solid 3px blue;
+                                            background-color: rgba(70, 40, 240, 0.836);
+                                            height: 60px;
+                                            width: 60px;
+                                            position: absolute;
+                                            top: 500px;
+                                            left: 627px;
+                                        }
